@@ -1,0 +1,93 @@
+					java 
+
+jdk									jre
+java development kit						java runtime enviornment 
+								
+javac - compile 						jvm 	jit    classloader 
+java -  execute 						java virtual machine 
+javah  - header 						just in time 
+jdb  -   java debugger 						
+appletviewer - view applets 
+javadoc  - documentation 
+-------------------------------------------------------------------------------------------------------
+programming language:-
+		HL -> Eng -> user
+		LL -> system -> 01010 
+		ML -> HL + LL [ eng + 0101 ] 
+
+
+pop  -> function 
+oop  -> class ,object, inheritance ,encapsulation ,polymorphism ,
+
+-------------------------------------------------------------------------------------------------------
+c - pop
+c++ - oop 
+java - oop
+ruby - oop 
+python - oop 
+-------------------------------------------------------------------------------------------------------
+class  - blueprint -- logical - group -general   
+object - physical -- special member ---real world -- PPT -->  person place thing 
+
+
+TV -> class 
+	MI LED 43" A123 
+Dog -> class
+
+DhirajSir ->
+Laptop -> 
+
+
+Iphone -> class 
+
+Bike -> class 
+
+
+Rohit -> object 
+
+Gandhiji -> object 
+
+-------------------------------------------------------------------------------------------------------
+class ->  data members + member functions 
+	   variables + methods
+
+object -> used property of a class 
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+	
+
+ 
+
+
+
+
+
+
