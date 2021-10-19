@@ -54,6 +54,15 @@ class ->  data members + member functions
 object -> used property of a class 
 -------------------------------------------------------------------------------------------------------
 
+having extension .java
+
+class -> first char capital if we have two words in a class name then,
+		 first char capital , second word's first char also in capital  
+		 e.g 
+		 	Employee 
+			EmployeeSalary
+			PermEmplSal 
+				 
 
 
 
