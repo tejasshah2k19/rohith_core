@@ -62,6 +62,87 @@ class -> first char capital if we have two words in a class name then,
 		 	Employee 
 			EmployeeSalary
 			PermEmplSal 
+			
+
+Calc.java 
+
+public class Calc {
+	public static void main(String args[]){}
+}
+
+class A{
+	public static void main(String args[]){}
+}
+
+class B{
+	public static void main(String args[]){}
+}
+
+javac Calc.java 
+
+3 class file 
+
+1) Calc.class 
+2) A.class 
+3) B.class 
+
+java Calc 
+java A
+java B 
+
+---------------------------------------------------------------------------
+A.java 
+
+1) If you have public class in your java file than you must have to save 
+   your source file with  same  name as class name. 
+
+2) You can have n number of class in your 1 java file 
+
+3) you can have public static void main(String args[]) in every class of your java file 
+
+4) if you have 4 class in java source file , once we compile it will produce 4 different .class will created 
+ 
+---------------------------------------------------------------------------
+		  
+packages :- 
+		java 
+			util
+			io
+			sql
+			applet
+			lang { String , System , Math } 
+			.....
+			
+.java -> .class -> import java.lang.*; 
+		
+---------------------------------------------------------------------------
+		
+for -> counter control 
+
+while --> non counter  
+do..while 		 
+		
+
+1) entry control  loop
+	for
+	while 
+
+2) exit control loop 
+	do...while
+
+	
+---------------------------------------------------------------------------
+		
+
+
+
+
+
+
+
+
+
+
 				 
 
 
