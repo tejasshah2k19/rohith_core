@@ -132,8 +132,38 @@ do..while
 
 	
 ---------------------------------------------------------------------------
-		
-
+static :- 
+			
+	if we declare any varibale at class level it known as instance variable.
+	if we declare any variable inside the method than it is known as local variable. 
+	if we declare any variable at class level with static keyword that it is known as static variable. 
+	
+	class Bank{
+		int balance; // instance variable 
+		static int branchCode; //	
+		static void status(){
+			
+		}
+	}
+	
+	//Bank ->  5 objects --> balance=>5  branchCode=>1 
+	
+	We don't required any object to invoke / call static property. 
+	you can access static property using class name.
+	we can also access static property using instance/object. 
+	 
+	
+	System.out.println(Bank.branchCode);
+	Bank.status();
+	
+	**you can not access any non static property in static method but you can access
+	static property in non static property.
+	
+	
+	
+	
+	
+	
 
 
 
