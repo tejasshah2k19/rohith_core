@@ -159,7 +159,70 @@ static :-
 	**you can not access any non static property in static method but you can access
 	static property in non static property.
 	
+---------------------------------------------------------------------------
+conditional statements:- 
+
+	if 
+	if else
+	nested if 
+	else if ladder 
+
+---------------------------------------------------------------------------
+	we need to design an app for indian gov. 
+	india fight with corona , for gov we have to design an app 
+	that used to identify correct user for vaccination 
+	 
+	output :- 
+		Enter your name :-
+		ram 
+		Enter your Birth Year :-
+		1989
+		ram you are eligible for vaccination 
+		[age =>  age > 45 ] 
+		 
+		
+1) take two numbers from user , check num1 is divisible by num2
+	e.g 
+		enter two numbers 
+		25
+		5
+		divisible
+		
+		
+		enter two numbers 
+		27
+		5
+		not divisible
+		
+---------------------------------------------------------------------------
+how many types of data type in java?
+
+1) primitive 
+	byte 
+	short 
+	char 
+	int 
+	long 
+	float 
+	double  
+	boolean
 	
+2) non-primitive 
+	class 
+	object 
+	enum
+	array 
+	-----
+			
+		
+		
+		
+	
+	
+	
+	
+	
+		
 	
 	
 	
