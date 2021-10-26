@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-import sun.text.normalizer.CharTrie.FriendAgent;
+ 
 
 public class BookMyShowApp {
 
