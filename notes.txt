@@ -193,6 +193,37 @@ conditional statements:-
 		27
 		5
 		not divisible
+---------------------------------------------------------------------------
+		
+App Name : Book My Show 
+
+we need to design an app for bookMyShow that book tickets for the customer. 
+customer need to signup first , in signup customer will provide first name and unique code for their 
+unique identity. after signup user can buy tickets for a movie with various category.
+diamond - 500 , silver - 250 , gold - 350 
+user can buy one or more than one tickets.
+user can check their booking status whenever they want using unique code. 
+
+1. Signup and book tickets 
+2. Check Your Booking Status 
+3. exit 
+
+classes ? 
+BookMyShow 
+	main()
+Customer 
+	int goldTickets;
+	int silverTickets;
+	int diamondTickets;
+	
+	int uniqCode; 
+	String firstName;
+	void signup();
+	void booking();
+	void myBookings();
+	
+
+
 		
 ---------------------------------------------------------------------------
 how many types of data type in java?
