@@ -261,9 +261,18 @@ constructor :- it's a special method which has same name as class name.
 	> parameterized constructor 
 			
 ---------------------------------------------------------------------------
-		
-		
-		
+Employee Management :- 
+
+	Royal Technosoft wants salary payout using auto calculation app.
+	we need to design an application that calcualte salary for all employees. 
+	we have two types of employee , 1) part time 2) full time 	
+	both will get salary but full time employee can take salary on monthly basis 
+	and part time employee will get salary on hourly work basis. 
+	all employee have their unique employeeId , firstName and their cityName. 
+	
+	variables? 
+	methods? 	
+---------------------------------------------------------------------------
 	
 	
 	
