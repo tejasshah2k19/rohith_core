@@ -1,8 +1,9 @@
 import java.util.Scanner;
- 
 
+//main class - starting entry point 
 public class BookMyShowApp {
 
+	// main - first
 	public static void main(String[] args) {
 
 		Scanner scr = new Scanner(System.in);
@@ -31,23 +32,28 @@ public class BookMyShowApp {
 	}
 }
 
+// user class - holds all data 
 class Customer {
 	String firstName;
-	int uniqueCode;
+	int uniqueCode; // unique code for every user and generated randomly
 
-	int goldTicketCount = 0;
-	int silverTicketCount = 0;
-	int diamondTicketCount = 0;
+	int goldTicketCount = 0; // gold ticket counter =>
+	int silverTicketCount = 0; // ||
+	int diamondTicketCount = 0;// ||
 
 	Scanner scr = new Scanner(System.in);
 
+	// this method will scan all input from user , first name
+	// it also generate random unique code
 	void signup() {
 
 		System.out.println("Enter your firstname");
 		firstName = scr.next();// String - without space
 		// scr.nextLine() -- with space
 
-		uniqueCode = (int) (Math.random() * 1000000); // 0.2356215459455166 * 1000000 => 235621.5459455166
+		// Math.random() generate random number and will multiply for bigger real number
+		// and cast into integer.
+		uniqueCode = (int) (Math.random() * 1000000); // 0.2356215459455166 * 1000000 => 235621.5459455166 => 235621
 		// 234351
 //		System.out.println(firstName);
 //		System.out.println(uniqueCode);

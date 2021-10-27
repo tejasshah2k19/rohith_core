@@ -243,8 +243,24 @@ how many types of data type in java?
 	object 
 	enum
 	array 
-	-----
+---------------------------------------------------------------------------
+constructor :- it's a special method which has same name as class name. 
+			   it must not have any return type. 
+			   it is used to initialize the instance variable [assignign value ].
+			   We can't call constructor like a method it will call automatically when 
+			   we create instance.  
+			   you can call another constructor from constructor , but that instructions 
+			   must be written on the first line of constructor. 
+			   for that you can use this[same class] and super*[parent class]* keyword.  
+			   
+			   
+1) implicit 
+	> no argument / default  
+2) explicit 
+	> no argument
+	> parameterized constructor 
 			
+---------------------------------------------------------------------------
 		
 		
 		
