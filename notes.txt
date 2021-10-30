@@ -273,11 +273,40 @@ Employee Management :-
 	variables? 
 	methods? 	
 ---------------------------------------------------------------------------
+ array :-   int a; // single value 
+ 		   a=90;
+ 		   a=900; // 900 
+ 		  10 values in single variable a -> array 
+ 		  
+ 		  array is a collection of same type of data.
+ 		  a=> 10 size --> 	
+		  print -> a 
+		  we can access array using index and index starts with 0 and ends with size-1
+		  index is known as subscript 
+	
+---------------------------------------------------------------------------
+1) print and scan array of 1D 
+2) sum of all elements from 1D
+3) sum of odd and even elements from 1D 
+4) search number from 1D
+	o/p  11 22 33 55 66 
+	search?
+	69
+	69 not found 
+	
+	o/p  11 22 33 55 33 
+	search?
+	33
+	33 found at 3rd position 
+	
+	or-> 33 found 2 time
+	
+	 
+	
+	 
 	
 	
-	
-	
-	
+	  
 		
 	
 	
