@@ -301,8 +301,11 @@ Employee Management :-
 	
 	or-> 33 found 2 time
 	
-	 
+5) count how many odd and how many even numbers present in 1D array 
+a => 10 23 33 40 50 	 
 	
+	odd => 2 
+	even => 3 
 	 
 	
 	
