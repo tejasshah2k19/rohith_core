@@ -337,8 +337,19 @@ Row Column --> index
 		2.2) print sum of all columns => 1+4+7 => 12 2+5+8 => 15 3+6+9 => 18 
 		2.3) find max numbers from it => 9 
 -------------------------------------------------------------------
+jagged array:-	row are fix , columns are dynamic 
 		
-		
+	int a[][] = new int[3][] ; //row => 3 , col = ?
+	
+	row 
+	0 => a[0] = new int[5]; 
+	1    a[1] = new int[3]; 
+	2    a[2] = new int[2]; 
+	
+	0=> 0 1 2 3 4 
+	1=> 0 1 2 
+	2=> 0 1 
+-------------------------------------------------------------------
 		
 		
 		
