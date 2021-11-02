@@ -303,9 +303,31 @@ Employee Management :-
 	
 5) count how many odd and how many even numbers present in 1D array 
 a => 10 23 33 40 50 	 
-	
+	output=> 
 	odd => 2 
 	even => 3 
+---------------------------------------------------------------------------
+2D-> matrix -> 	row col 
+
+Row Column --> index 
+
+
+	5	6	7
+	8	9	1
+	2	3	4
+
+
+
+
+
+
+
+
+
+
+
+
+
 	 
 	
 	
