@@ -350,8 +350,17 @@ jagged array:-	row are fix , columns are dynamic
 	1=> 0 1 2 
 	2=> 0 1 
 -------------------------------------------------------------------
-		
-		
+String :-  it's a class in java 
+		   it is inside in java.lang package so we dont need to import it
+		   
+		   we will use String class to store multiple characters 
+		   
+		   String data can be access via index and index starts with 0 and ends with lenght-1 
+		   		
+1) take 1 string from user and search royal is present in that string or not 
+2) take 1 string from user and count how many spaces present in string 
+3) take 1 string from user and count how many vowels are present in string 
+-------------------------------------------------------------------
 		
 		
 		
