@@ -361,7 +361,45 @@ String :-  it's a class in java
 2) take 1 string from user and count how many spaces present in string 
 3) take 1 string from user and count how many vowels are present in string 
 -------------------------------------------------------------------
-		
+String -> StringBuffer | StringBuilder 
+String is immutable 
+StringBuffer -> sync
+StringBuilder -> non-sync  
+-------------------------------------------------------------------
+4) take string from user and check it's palindrome or not 
+5) rohith -> rohhith [ insert ]  	
+	x.insert(3,"h"); 
+	
+6) RoyyalEddu -> remove y and d 
+				x.remove(2,3); //2
+				x.remove(2,5); //2-3-4
+7) encryption ->
+			you have to make program that have two methods encrypt and decrypt.
+			take string from user encrypt it. 
+			and decrypt it. 
+			
+			x =  royal123 
+			encrypt(x) => axAxAxAx123axaxcc
+			 
+			decrypt(axAxAxAx123axaxcc) => royal123 
+			
+			
+			x=royal 
+			encX => spzbm [ +1 ] 
+			decX => royal [ -1 ] 
+			
+-------------------------------------------------------------------
+			
+			
+			
+			
+-------------------------------------------------------------------
+
+
+
+	
+	
+	
 		
 		
 					 
