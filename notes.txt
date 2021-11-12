@@ -383,12 +383,20 @@ StringBuilder -> non-sync
 			 
 			decrypt(axAxAxAx123axaxcc) => royal123 
 			
-			
 			x=royal 
 			encX => spzbm [ +1 ] 
 			decX => royal [ -1 ] 
 			
 -------------------------------------------------------------------
+			
+			String str = "royal"; 
+			StringBuffer sb = new StringBuffer(str);
+			//royal
+			//soyal
+			
+			sb 
+			
+			
 			
 			
 			
