@@ -7,6 +7,7 @@ public class RestaurantApp {
 	public static void main(String[] args) {
 		Scanner scr = new Scanner(System.in);
 		Customer cust = new Customer();
+		Food food = new Food(); // later we dont required --> final + static
 		int choice;
 
 		cust.signup();
@@ -39,16 +40,20 @@ public class RestaurantApp {
 			case 4:
 				System.out.println("************* BILL ****************");
 				if (cust.dalDhokdiQty != 0) {
-					cust.totalAmount = cust.totalAmount + (cust.dalDhokdiQty * 50);// 0 + (2*50) => 100
-					System.out.println("DalDhokdi	" + cust.dalDhokdiQty + "	50	 " + (cust.dalDhokdiQty * 50));
+					cust.totalAmount = cust.totalAmount + (cust.dalDhokdiQty * food.DALDHOKDAI_PRICE);// 0 + (2*50) =>
+																										// 100
+					System.out.println("DalDhokdi	" + cust.dalDhokdiQty + "  " + food.DALDHOKDAI_PRICE + " "
+							+ (cust.dalDhokdiQty * food.DALDHOKDAI_PRICE));
 				}
 				if (cust.theplaQty != 0) {
-					cust.totalAmount = cust.totalAmount + (cust.theplaQty * 40); // 100 + (5*40) => 300
-					System.out.println("Thepla    " + cust.theplaQty + "   40   " + (cust.theplaQty * 40));
+					cust.totalAmount = cust.totalAmount + (cust.theplaQty * food.THEPLA_PRICE); // 100 + (5*40) => 300
+					System.out.println("Thepla    " + cust.theplaQty + "   " + food.THEPLA_PRICE + " "
+							+ (cust.theplaQty * food.THEPLA_PRICE));
 				}
 				if (cust.dhokdaQty != 0) {
-					cust.totalAmount = cust.totalAmount + (cust.dhokdaQty * 30); // 300 + (5*30) =>450
-					System.out.println("Dhokda    " + cust.dhokdaQty + "   30   " + (cust.dhokdaQty * 30));
+					cust.totalAmount = cust.totalAmount + (cust.dhokdaQty * food.DHOKDA_PRICE); // 300 + (5*30) =>450
+					System.out.println("Dhokda    " + cust.dhokdaQty + "   " + food.DHOKDA_PRICE + " "
+							+ (cust.dhokdaQty * food.DHOKDA_PRICE));
 				}
 
 				cust.tax = (int) (cust.totalAmount * 0.10);
@@ -62,6 +67,14 @@ public class RestaurantApp {
 
 	}// main
 }// class
+
+class Food {
+
+	final int DALDHOKDAI_PRICE = 50;
+	final int THEPLA_PRICE = 40;
+	final int DHOKDA_PRICE = 30;
+
+}
 
 //class 
 class Customer {

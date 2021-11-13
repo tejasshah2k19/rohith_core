@@ -434,7 +434,20 @@ e.g
 	
 	
 	
-		
+-------------------------------------------------------------------
+
+public private protected --> access modifier 
+
+
+non access modifier 
+	final  -> variable - Yes
+			  method - Yes
+			  class  - Yes 
+
+	final variables are known as constant variable 
+		- which can not modify ,  value can not change once assign , fix value 
+		- by convention we make all characters in capital for final variable name 
+					
 		
 					 
 			
