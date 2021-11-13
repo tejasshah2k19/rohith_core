@@ -35,7 +35,7 @@ class Royal {
 		System.out.println("Royal()");
 	}
 
-	// expilicit -2
+	// expilicit -2 -- parameterized 
 	Royal(int k) { //250 
 		this(12,true);//
 		i = k;//

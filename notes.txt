@@ -403,8 +403,34 @@ StringBuilder -> non-sync
 			
 -------------------------------------------------------------------
 
+We need to create an order book application for restaurant. 
+
+they have fix items for sell.
+ 
+DalDhokdi  -> 	50
+Thepla     -> 	40
+Dhokda     ->  	30 
+
+customer can place their order after signup. 
+in signup customer provides , firstName and mobile number. 
+
+app display menu for buy items. 
+
+************************in one order max 10 quantity customer can buy.
 
 
+once customer select exit print entire bill with 10% tax 
+
+
+e.g 
+	customer select 2 daldhokdai and 1 dhokda then 
+	bill : 
+	
+		DalDhokdi	2	100		200
+		Dhokda		1	30		 30
+		Total 					230
+		Tax						 23
+		Total Amount 			253  
 	
 	
 	
@@ -413,6 +439,11 @@ StringBuilder -> non-sync
 					 
 			
 					 
+
+
+
+
+
 
 
 
