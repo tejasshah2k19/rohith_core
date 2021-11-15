@@ -448,8 +448,27 @@ non access modifier
 		- which can not modify ,  value can not change once assign , fix value 
 		- by convention we make all characters in capital for final variable name 
 					
-		
-					 
+-------------------------------------------------------------------
+
+inheritance:- 
+			object of one class can access property of another class 
+			
+			how: extends keyword 
+			
+			parent | super | base     -> give 
+			child  | sub   | derived  -> take 	
+			
+	overloading :- method having same name with different arguments 
+	overriding :- parent and child both have method with same signature 			
+			
+
+			
+abstract:- abstraction :-  hide 			
+			abstract method -- only declaration no defination 
+			non abstract method -- it has defination 
+			if you have abstract method in your class then your class must be abstract marked as abstract class
+			abstract class may have abstract and non abstract method 					 
+			you can not  create object/instance of abstract class.
 			
 					 
 
