@@ -472,6 +472,8 @@ abstract:- abstraction :-  hide
 			
 					 
 -----------------------------------------------------------------------------
+1) 
+
 create Employee class with , name and salary property. 
 Employee class have two child class 
 PartTimeEmployee
@@ -481,6 +483,13 @@ PartTimeEmployee get salary and daily bonus
 FullTimeEmployee get salary and monthlyBonus 
 
 create methods that take input for all and print all data. 
+
+
+2) scan 1D array and find max from it 
+
+3) authenticate user with email and password
+		correct details  :-  royal@admin.com , secret123 
+							 
 --------------------------------------------------------------------------------
 
 interface :-  pure abstract class 	
