@@ -1,4 +1,4 @@
-
+package abstractch;
 public class AbstractDemo {
 
 	public static void main(String[] args) {
@@ -19,7 +19,7 @@ abstract class RBI {
 //in abstraction --child class must have to override abstract method of parent abstract class 
 //or you can add abstract keyword in child class
 class ICICI extends RBI {
-	//overriding --
+	// overriding --
 	void wid() {
 		System.out.println("ICICI::wid()");
 	}

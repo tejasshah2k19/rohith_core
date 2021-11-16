@@ -471,6 +471,38 @@ abstract:- abstraction :-  hide
 			you can not  create object/instance of abstract class.
 			
 					 
+-----------------------------------------------------------------------------
+create Employee class with , name and salary property. 
+Employee class have two child class 
+PartTimeEmployee
+FullTimeEmployee 
+
+PartTimeEmployee get salary and daily bonus 
+FullTimeEmployee get salary and monthlyBonus 
+
+create methods that take input for all and print all data. 
+--------------------------------------------------------------------------------
+
+interface :-  pure abstract class 	
+			  we can create interface using interface keyword like class 
+			  all the methods in interface are    public and  abstract 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
