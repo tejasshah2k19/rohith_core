@@ -496,9 +496,16 @@ interface :-  pure abstract class
 			  we can create interface using interface keyword like class 
 			  all the methods in interface are    public and  abstract 
  
+--------------------------------------------------------------------------------
 
+final :- 
 
-
+		class  --> final class can not be inherited  
+		method --> final method can not override 
+		variable --> constant variable -- fix value 
+		
+--------------------------------------------------------------------------------
+		
 
 
 
