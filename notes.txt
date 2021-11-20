@@ -505,15 +505,47 @@ final :-
 		variable --> constant variable -- fix value 
 		
 --------------------------------------------------------------------------------
-		
 
 
+static :-
+		method -> 
+		variable -> 
+
+--------------------------------------------------------------------------------
 
 
+strictfp :-  IEEE 574  
 
+			46.97932372505543
+			class :- YES 
+			method :- YES  
+			variable :- NO 
+			
+			strictfp class A{
+			
+				
+			}
+			class B{
+				
+					strictfp svoid div(){
+					
+					}
+			}
+			
+			
+			
+str ="royal"  
+str1 = "" 
 
+for(){
+	str1 = str1 + str.charAt(i-1); 
+}
 
+s.o.p(str1) 
 
+ 
+			
+--------------------------------------------------------------------------------
 
 
 
