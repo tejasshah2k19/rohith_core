@@ -546,6 +546,47 @@ s.o.p(str1)
  
 			
 --------------------------------------------------------------------------------
+package :- 
+
+	folder -- windows  
+	package -> 
+		1) inbuilt -> java.lang , util , io, applet , *  
+		2) user define -> * 
+		
+	1) we can access class from same package without import statement 
+	2) we can access class from other package but we need to import it and that class need to public.
+
+ 
+	private 
+	default
+	protected
+	public 
+
+
+	A - private add
+		default* sub
+		protected mul
+		public div
+	A - mypack 
+	
+	
+	B - mypack 
+	C - mypack [ extends A ]  
+	D - otherpack 
+	E - otherpack [ extends A ] 
+	
+	
+	A -> objA -> 		private    		default			protected 		public 
+	B -> objA -> 		------			default			protected		public 
+	C -> objA,objC ->   ------			default			protected		public 
+	D -> objA      ->   ------			-------			---------		public 
+	E - objE,A     ->   ------          -------         protected       public  
+	
+	
+	
+	 
+	
+--------------------------------------------------------------------------------
 
 
 

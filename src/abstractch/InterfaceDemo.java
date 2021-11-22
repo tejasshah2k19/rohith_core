@@ -1,9 +1,12 @@
 package abstractch;
 
+import oop.RestaurantApp;
+
 public class InterfaceDemo {
 
 	public static void main(String[] args) {
-
+		AbstractDemo abc = null;
+		RestaurantApp rp = null;
 	}
 }
 
