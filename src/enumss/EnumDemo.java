@@ -3,7 +3,11 @@ package enumss;
 public class EnumDemo {
 
 	public static void main(String[] args) {
-		System.out.println(Drink.LARGE.value);
+		System.out.println(Drink.LARGE.value);// 22
+		System.out.println(Mobile.Rates.SMS);//
+
+		Drink abc = Drink.SMALL;
+
 	}
 }
 

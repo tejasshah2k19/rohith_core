@@ -76,6 +76,15 @@ class Food {
 
 }
 
+enum FoodPrice {
+	DALDHOKDAI_PRICE(50);
+	int price;
+
+	FoodPrice(int p) {
+		price = p;
+	}
+}
+
 //class 
 class Customer {
 
