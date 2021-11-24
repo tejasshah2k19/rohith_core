@@ -15,17 +15,21 @@ public class InstanceOfDemo {
 
 	}
 }
+// Dzire is a Car
+// Dzire has a shortWidth 
 
 class Car {
-
+	int mil;
+	String fuelType;
 }
 
 class Ciaz extends Car {
+	int longWidth;
 
 }
 
 class Dzire extends Car {
-
+	int shortWidth;
 }
 //K->L [yes]
 //K->J [yes]

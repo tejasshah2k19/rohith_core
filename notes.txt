@@ -597,7 +597,51 @@ enum :-   constants -->
 
 --------------------------------------------------------------------------------
 	
+ equals 
+ toString() 
+ instance of 
+ 
+ encapsulation :-
+ 		class
+ 				1) variable --> protected private 
+ 				2) method --> accessor method 
+ 								getters and setters 
+ 								
 
+--------------------------------------------------------------------------------
+is a  --> relationship between classes --> inheritance 
+has  a  --> property ---> varaibles 
+--------------------------------------------------------------------------------
+polymorphism :- 
+		compiletime [ overloading -> method overloading , operator overloading* ] 
+		runtime [ virtual function* ]
+			 							
+		compile time --> overloading 
+		run time 	 --> overriding 
+			
+ 
+ int a = 10
+ int b = 10
+ s.o.p(a+b) => 20
+ 
+ String a = "10"; "royal"
+ String b = "10"; "edu" 
+ s.o.p(a+b) => 1010 => royaledu 
+ 
+ Test t1 , t2 
+ s.o.p(t1+t2); //compilation error 
+ --------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 
 
