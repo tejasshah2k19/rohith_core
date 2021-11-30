@@ -7,7 +7,7 @@ public class InitBlockDemo {
 
 		School sc = new School();
 		School sc1 = new School();
-		
+
 	}
 }
 

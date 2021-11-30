@@ -711,14 +711,44 @@ all the class you have to create in inventory package.
 //class , object , instance variable , methods , inheritance 
 //switch , loop , constructor  , array of objects , package 
  
+--------------------------------------------------------------------------------
+heap  - class-static  , instance , object , array 
+stack - local , block  
 
+500 variable --> 250 used , u don't need --> how you release memory?
+new ==> allocating memory 
+=> gc =>
 
+class program -> allocate memory --> | GC |  
+System.gc(); 
 
+object = null; 
 
+--------------------------------------------------------------------------------
 
+KidZee School App 
 
+Parents are requested to fill admission form before taking admission. 
+KidZee has three types of Class Facility 
+1) online
+2) offline
+3) home 
 
+KidZee need all students personal details for admission. 
 
+You app will also take birth year and decide which course is suitable for child. 
+age 
+1 year - not eligible
+2 year - not eligible 
+3 year - play group
+4 year - nursery 
+5 year - Jr KG
+6 year - Sr KG 
+
+app will fill the admission form and take details , at last app will give suggestion ,which course is suitable for
+kid 
+
+--------------------------------------------------------------------------------
 
 
 
