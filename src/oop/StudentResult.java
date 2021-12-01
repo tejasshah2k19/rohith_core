@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class StudentResult {
 
 	public static void main(String[] args) {
-
+ 
+		
 		int a[] = new int[8];
 		Student s[] = new Student[3];// s[0] = null s[1] = null
 

@@ -738,106 +738,101 @@ KidZee need all students personal details for admission.
 
 You app will also take birth year and decide which course is suitable for child. 
 age 
-1 year - not eligible
+1 year - not eligible 
 2 year - not eligible 
-3 year - play group
-4 year - nursery 
-5 year - Jr KG
-6 year - Sr KG 
+3 year - play group [ 48000 ] online -> -25%  home->+125%  
+4 year - nursery    [ 44000 ]  =>home -> 44000 + 44000 [125%] 
+5 year - Jr KG      [ 46000 ] 
+6 year - Sr KG      [ 48000 ] 
 
 app will fill the admission form and take details , at last app will give suggestion ,which course is suitable for
 kid 
 
+ 
+--------------------------------------------------------------------------------
+a = a + b
+a+=b
+
+a=a+1 
+a++ 
+
+ register --bit 
+ cache --mb 
+ ram--gbs 
+ hdd --tbs 
+ 
+ 
+ 
+ 
+ i++ -> i -> 1 -> unary 
+ a+b -> a,b =>2 ->binary 
+ 
+ relation operators 
+
+> < >= <= 
+
+a = 10
+b = 20 
+
+ternary operator 
+a > b ? s.o.p("a max"):s.o.p("b max");
+
+short circuit 
+
+conditions --> 
+ && -> all must be 
+*** a person can give vote if  person is male and age >= 18 ,
+	  person can give vote if  person is female and age >= 20 
+	  if(  (gender == "male" && age >= 18)   ||  (gender =="femal" && age >= 20  )     ){
+	  
+	  }
+	  
+ 
+ || -> either or condition 
+
+
+
+& -> all conditions must satisfy 
+| -> either or 
+
+
+int a =90;
+int b = 90;
+
+
+
+if( a > b &&  a++ > b++  ){
+	s.o.p("hi");
+}
+
+s.o.p(a) // 90
+s.o.p(b)//  90
+
+
+
+
+if( a > b &  a++ > b++  ){
+	s.o.p("hi");
+}
+
+s.o.p(a) // 91
+s.o.p(b)//  91
+
+--------------------------------------------------------------------------------
+cricket app :-	
+		our app register player with their name and age 
+		also need to register their speciality , either bowler or batsman.
+		
+		if he is bowler than take innings played and wickets
+		if he is batsman than take innigs played and run they score.
+		
+		at last print every thing.
+
 --------------------------------------------------------------------------------
 
 
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-	 
-	
-	
-	  
+		 
 		
-	
-	
-	
-	
-
-
-
-
-
-
-
-
-
-				 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
 	
 
  
