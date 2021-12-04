@@ -10,7 +10,9 @@ public class StringBufferEncrypt {
 		System.out.println("Enter string");
 
 		String str = scr.next();
-		StringBuffer sb = new StringBuffer(str);
+//		StringBuffer sb = new StringBuffer(str); //sync 
+
+		StringBuilder sb = new StringBuilder(str); // non sync
 		// royal
 		// soyal
 

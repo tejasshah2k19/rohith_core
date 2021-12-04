@@ -829,7 +829,44 @@ cricket app :-
 		at last print every thing.
 
 --------------------------------------------------------------------------------
+h.w 
+	string and their methods 
+	stringbuffer / builders methods 
+	
+--------------------------------------------------------------------------------
+Exception :-	
 
+	errors :-
+				1)compiletime error -> { , using variable that is not init. or declared ,  ;
+									-> compiler --> error -> .class   		
+				2)runtime error --> after executing of the program/.class 
+								->  Exception 
+								->  due to wrong logic , 
+								-> array->size->5 , s.o.p(array[8]); array[-1] 
+								-> a=10 ,b=0 ,c=a/b =>  
+								-> int -> age =>  twenty two ->  
+				
+				
+				
+				try -> 
+				hit 
+				throw 
+				catch 
+				
+--------------------------------------------------------------------------------
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
 
 		 
 		
