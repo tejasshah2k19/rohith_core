@@ -855,12 +855,28 @@ Exception :-
 				
 --------------------------------------------------------------------------------
 				
+				 
+cricket app :-	
+		our app register player with their name and age 
+		also need to register their speciality , either bowler or batsman.
+		
+		if he is bowler than take innings played and wickets
+		if he is batsman than take innigs played and run they score.
+		
+		at last print every thing.		
 				
 				
-				
-				
-				
-				
+		1) take two data of batsman and print who is good 
+		2) same for bowler 		
+		
+		also add three data for players , 
+			stateName 
+			cityName
+			pincode 
+			 
+			
+		
+--------------------------------------------------------------------------------		
 				
 				
 				
