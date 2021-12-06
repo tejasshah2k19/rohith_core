@@ -852,7 +852,11 @@ Exception :-
 				hit 
 				throw 
 				catch 
-				
+	keywords :-
+			try
+			catch 
+			
+			throws 
 --------------------------------------------------------------------------------
 				
 				 
@@ -877,11 +881,21 @@ cricket app :-
 			
 		
 --------------------------------------------------------------------------------		
+equals() -> Object class -> this will check memory reference 
+
+but if you use equals() of String class => this will check values 
+
+------------------------------------------------------------------
+						          Object 
+					         	  Throwable 		
+		             Exception						*Error 
+		RuntimeException	 ArithmeticException
+			ParseException	 InputmissMatchException 		
 				
-				
-				
-				
-				
+		
+------------------------------------------------------------------
+exception 1) checked exception [ParseException] [ you must have to handle otherwise compiler gives you error ]
+		  2) unchecked exception  [ compiler will not force ] 
 					
 
 		 
