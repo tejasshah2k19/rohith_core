@@ -41,7 +41,7 @@ public class DateFormatDemo {
 
 		try {
 			Date dateDob = dx.parse(dob);
-			System.out.println("your date => "+dateDob);
+			System.out.println("your date => " + dateDob);
 		} catch (ParseException e) {
 			System.out.println("your format of date in invalid (6/12/21)  (d/m/yy) ");
 		}

@@ -1,6 +1,7 @@
 package datesnumbreslocale;
 
 import java.util.Calendar;
+import java.util.Date;
 
 public class CalDemo {
 
@@ -35,5 +36,13 @@ public class CalDemo {
 		System.out.println(c.get(Calendar.DAY_OF_MONTH));
 
 		// c.roll() //task //with demo
+
+		System.out.println("---------------------------------------------------------------");
+		Calendar cx = Calendar.getInstance();
+		// if add -> add date --> change month --> year
+		cx.roll(Calendar.DATE, 25);// only date
+		System.out.println(new Date(cx.getTimeInMillis()));// Wed Dec 01 15:09:28 IST 2021
+		System.out.println("---------------------------------------------------------------");
+
 	}
 }

@@ -898,11 +898,52 @@ exception 1) checked exception [ParseException] [ you must have to handle otherw
 		  2) unchecked exception  [ compiler will not force ] 
 					
 
+------------------------------------------------------------------
 		 
 		
+	7-dec-2021 -> add 25 days -> 2-jan-2022
+	7-dec-2021 -> roll 25 days -> 2-dec-2021
 	
 
  
+------------------------------------------------------------------
+
+task: read pattern matcher -? \w \W 
+
+------------------------------------------------------------------
+phoneWale :-	
+	we sell phones in our shop , we need one inventory app so we can manage our stocks. 
+	you have to store all the information of phone,
+	phonename,companyname,price,launchyear,maxdiscount,qty.
+	create methods for input and print phone details. 
+	also take care if price is greater than 25000 please add max discount 3000
+	if price is greater than 50000 please add max discount 5000 
+	for less than 25000 you can give any discount by your choice. 
+
+phase 2:-	
+	customer wants to buy 3 phones, 
+	also print details of all phones in descending order of phone price. 
+
+------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
