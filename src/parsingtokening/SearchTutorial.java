@@ -14,8 +14,10 @@ public class SearchTutorial {
 		// character
 		// group of characters => string
 		//
-		search4();
+		search3();
 	}
+
+
 
 	static void search1() {
 
@@ -31,20 +33,19 @@ public class SearchTutorial {
 
 	static void search2() {
 		String str = "m34j5gtr8f7ds9";
-		Pattern p = Pattern.compile("[0-9]");
+		Pattern p = Pattern.compile("[0-9]+");
 		Matcher m = p.matcher(str); // string to search
 
 		System.out.println(str);
 		while (m.find()) { // true
-			System.out.print(m.start() + ":" + m.group() + ", ");// 0 4
+			System.out.print(m.start() + ":" + m.group() + ", ");//
 		}
 		System.out.println("");
-
 	}
 
 	static void search3() {
 		String str = "m34j5gtr8f7ds9";
-		Pattern p = Pattern.compile("\\d");
+		Pattern p = Pattern.compile("\\d+");// [0-9]
 		Matcher m = p.matcher(str); // string to search
 
 		System.out.println(str);

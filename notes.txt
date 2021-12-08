@@ -925,7 +925,25 @@ phase 2:-
 	also print details of all phones in descending order of phone price. 
 
 ------------------------------------------------------------------
-	
+task : take 1 string from user and count how many words it has?
+		e.g 
+			enter string 
+			jony jony i am funny 
+			total words :- 5 
+	: create 1 pattern for email , take email input from user and validate it. 
+------------------------------------------------------------------
+phoneWale :- 
+	phase 3:-
+			design menu for customers so that customers can buy phone 
+			you can display 3 products from your inventory and 
+			ask user to purchase what? 
+			also ask for quantity
+			add discount in final price. and deduct quantity from stock
+			once user buy. 
+			
+------------------------------------------------------------------
+			
+							
 	
 	
 	
