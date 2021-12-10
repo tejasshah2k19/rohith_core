@@ -942,7 +942,22 @@ phoneWale :-
 			once user buy. 
 			
 ------------------------------------------------------------------
-			
+TripAdvisor:- p-1
+	TripAdviosr is advisory firm they have few predefine trips.
+	they store  tripname, costperpax [ priceperpassenger] , days in tripdetail.
+	
+	they want 5 trips in database.
+	
+	your duty is to make an application so that they can store 5 trips in their database. 
+	
+------------------------------------------------------------------
+	p-2
+	Now admin wants to add menu in your app so admin can have option to add any new trip, 
+	list out all the trips , search trips with given cost like search trips which is less than XXX amount. 
+		  			
+------------------------------------------------------------------
+
+
 							
 	
 	
