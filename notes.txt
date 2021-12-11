@@ -956,6 +956,53 @@ TripAdvisor:- p-1
 	list out all the trips , search trips with given cost like search trips which is less than XXX amount. 
 		  			
 ------------------------------------------------------------------
+File handleing :- 
+	
+		io -> package --> classes and interfaces 
+		nio -> package 
+		 
+File -> create , read , write , append , search data from file...etc 
+
+
+
+java.io ->	
+			File -> create file ,delete file, rename file , folders .....
+			
+			//byte level 
+			FileOutputStream(w)
+			FileInputStream(r) 
+			
+			//character level 
+			FileWriter(w) 
+			FileReader(r)
+			
+			
+			ObjectOutputStream 
+			ObjectInputStream 
+			 
+1) take file name from user and check file is present or not in d: drive
+2) take folder name from user and create that folder in d: drive 
+3) take 3 name from user and store into file , now read those names and print it. 
+----------------------------------------------------------------
+
+			
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 							
