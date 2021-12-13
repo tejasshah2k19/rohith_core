@@ -1,8 +1,10 @@
 package iodemo;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
@@ -11,7 +13,8 @@ public class FileReadAndWrite {
 
 	public static void main(String[] args) throws IOException {
 
-		readAllFileData();
+//		readAllFileData();
+		readAllDataUsingReader();
 		System.out.println("done");
 
 	}
@@ -59,14 +62,37 @@ public class FileReadAndWrite {
 		int b = 0;
 
 		while (true) {
-			b = fis.read();
-			if(b == -1) {
+			b = fis.read();// one by one character
+			if (b == -1) { // EOF
 				break;
 			}
 			System.out.print((char) b);
 		}
 
 		fis.close();
+
+	}
+
+	static void readAllDataUsingReader() throws FileNotFoundException {
+
+		File f = new File("d://abc//data.txt");// 15 lines
+		FileReader fr = new FileReader(f);
+		BufferedReader br = new BufferedReader(fr);
+		String d = "";
+		try {
+
+			while (true) {
+				d = br.readLine();// read single line
+				if (d == null)
+					break;
+				System.out.println(d);
+			}
+			br.close();
+
+		} catch (IOException e) {
+			System.out.println("ERROR");
+//			e.printStackTrace();
+		}
 
 	}
 
