@@ -1000,9 +1000,12 @@ file -> tejas , rohith , dhirajsir, x,y,z
 10*5 => 50 lines 			
 			
 			 
+serialization -> writing an instance/object [ instance variable ] into file / persistance storage --> object --> byte 
 
-
-
+1) class must have to implements Serializable 
+2) You can use ObjectOutputStream for writing instance/object into file 
+3) You can use ObjectInputStream for reading instance/object from file 
+----------------------------------------------------------------
 
 
 
