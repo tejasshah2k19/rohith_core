@@ -1007,11 +1007,28 @@ serialization -> writing an instance/object [ instance variable ] into file / pe
 3) You can use ObjectInputStream for reading instance/object from file 
 ----------------------------------------------------------------
 
+Array List:- 
 
+create class Employee with 3 data members , email , salary and firstname .
+create menu that will ask user for create new employee and list all employees.
 
+1 Add Employee
+2 List Employees 
+3 Exit 
 
-
-
+P2:
+	your menu will change now 
+	
+	1 Add Employee
+	2 List Employees 
+	3 Print Tax Status 
+	4 Exit 
+	
+	[ TaxStatus ]
+	if users salary is >= 50000 print you have to pay 10% tax on your salary 
+	if users salary is >= 100000 print you have to pay 20% tax on your salary 
+	if users salary us < 50000 print you are free no tax you have to pay. 
+		
 
 
 
