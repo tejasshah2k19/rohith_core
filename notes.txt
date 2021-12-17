@@ -1028,10 +1028,37 @@ P2:
 	if users salary is >= 50000 print you have to pay 10% tax on your salary 
 	if users salary is >= 100000 print you have to pay 20% tax on your salary 
 	if users salary us < 50000 print you are free no tax you have to pay. 
+----------------------------------------------------------------
 		
+collection -- topic 
+Collections -- class
+Collection - interface
 
 
 
+						Collection
+List(I) 				Queue(I)			Set(I) 			Map(I)*  
+ArrayList				PriorityQueue		HashSet			HashMap
+Vector 										TreeSet			TreeMap 
+
+
+
+Comparator(I) 
+Comparable(I) 
+
+ 
+----------------------------------------------------------------
+
+ArrayList: telephone app :- 
+
+
+user can add contacts , name , number and city 
+
+1) Add Contact
+2) List Contacts 
+3) Exit 
+
+----------------------------------------------------------------
 
 
 
