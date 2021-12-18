@@ -1048,7 +1048,6 @@ Comparable(I)
 
  
 ----------------------------------------------------------------
-
 ArrayList: telephone app :- 
 
 
@@ -1058,9 +1057,32 @@ user can add contacts , name , number and city
 2) List Contacts 
 3) Exit 
 
+P2: 
+	add 1 more item in menu search by name , 
+	ask user for name and search that name in contact book, if name found print all the information of that contact if 
+	name is not present print no data found 
+	
+	
+p3:
+	add 1 more item in menu search by city 
+	[this will as smae as name ] 
+	
+p4:
+	add 1 more item in menu search by letter , only single character is entered by user for search 
+	like ,
+		enter character for search 
+		a 
+		
+		user entered a as character now you need to display all contacts that start with a  
 ----------------------------------------------------------------
-
-
+set collection :- 
+	
+							Collection --> interface 
+							Set --> interface [add remove size][new] 
+							[no duplicate allowed ] 
+	HashSet --> class 							TreeSet --> class
+	[unordered]									[sorted] 
+	
 
 
 
