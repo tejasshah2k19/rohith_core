@@ -1085,6 +1085,36 @@ set collection :-
 	
 
 
+----------------------------------------------------------------
+			map	
+HashMap				TreeMap
+
+how map stores data?
+key:value 
+
+
+index:value 
+a[] = {11,22,33} 
+a[0] => 11 , 0 is index , 1 is index 
+
+key:value
+{ "name":"ram", "email":"ram@gmail.com"   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 							

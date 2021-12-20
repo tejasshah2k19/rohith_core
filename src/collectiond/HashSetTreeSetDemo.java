@@ -42,14 +42,10 @@ public class HashSetTreeSetDemo {
 
 		System.out.println("-------------------------------");
 
-		
-		System.out.println(ts.headSet(201));//exclusive
-		System.out.println(ts.tailSet(201));//201 inclusive 
+		System.out.println(ts.headSet(201));// exclusive
+		System.out.println(ts.tailSet(201));// 201 inclusive
 		System.out.println(ts.subSet(120, 250));
-	
-	
-	
-	
+
 	}
 
 }
