@@ -1100,8 +1100,8 @@ a[0] => 11 , 0 is index , 1 is index
 key:value
 { "name":"ram", "email":"ram@gmail.com"   }
 
-
-
+----------------------------------------------------------------
+generics:- 
 
 
 
