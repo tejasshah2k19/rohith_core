@@ -10,21 +10,18 @@ public class FilesDemo {
 	public static void main(String[] args) throws Exception {
 
 		File f = new File("rohith.txt");
-		f.createNewFile(); 
-		f.exists();//boolean
-		f.canRead();//boolean 
-		
+		f.createNewFile();
+		f.exists();// boolean
+		f.canRead();// boolean
+
 		Path p = Paths.get("rohith.txt");
 		Files.createFile(p);
 		Files.exists(p);// boolean
-		Files.isReadable(p); //boolean 
+		Files.isReadable(p); // boolean
+
+
 		
 		
-		//
-		//
-		
-		//
-		//
-		
+
 	}
 }
