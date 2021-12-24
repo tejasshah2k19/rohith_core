@@ -13,7 +13,7 @@ public class PhoneApp {
 		while (true) {// placement
 
 			System.out.println(
-					"press 1 for Addcontacts \n 2 for list contacts \n 3 for search by city \n 4 for search by name \n 5 for search by letter \n exit");
+					"press 1 for Addcontacts \n 2 for list contacts \n 3 for search by city \n 4 for search by name \n 5 for search by letter \n 6 for search by number\n 7 for exit");
 			choice = scr.nextInt();// scan
 			switch (choice) {
 
@@ -66,6 +66,16 @@ public class PhoneApp {
 
 				break;
 			case 6:
+					int num;
+					System.out.println("Enter number?");
+					num = scr.nextInt();
+					for(int i=0;i<list.size();i++) {
+						if(list.get(i).number == num) {
+							list.get(i).printInfo();
+						}
+					}
+				break;
+			case 7:
 				System.exit(0);
 
 			}
@@ -83,7 +93,9 @@ class Phone2 {
 		System.out.println("What's your name: \n city");
 		name = sc.next();
 		city = sc.next();
-		// scan number here
+		System.out.println("Enter number");
+		number = sc.nextInt();
+
 	}
 
 	void printInfo() {
