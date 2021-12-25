@@ -1112,13 +1112,44 @@ DosFileAttributes								PosixFileAttributes
 
 ----------------------------------------------------------------
 
+thread:-	
+
+	1) extends Thread 
+	2) implements Runnable 
 
 
 
 
 
 
+new		--> start()					     yield()					stop() [ dead ] 
+									running/runnable
+
+	
+				
+								suspend()*	resume()*
+								wait()		notify()|notifyall()
+								sleep(ms) 
+									block
+start()
+stop()
+sleep(ms)
+wait()
+wait(ms)
+notify()
+notifyall()
+suspend()
+resume()
 							
+	
+----------------------------------------------------------------
+
+class Student 
+	studentName , maths , sci , eng 
+	take input of above members , for printing use printData method 
+	add 1 more feature , calculate result for students and print status pass/fail , 
+	pass/fail -> percentage > 35 then pass else fail 
+	
 	
 	
 	

@@ -7,7 +7,7 @@ public class ThreadDemo {
 		Copy c = new Copy();
 		Print p = new Print();
 		c.start();//
-		p.start();
+		p.start();//
 	}
 }
 
