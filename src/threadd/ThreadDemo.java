@@ -7,6 +7,13 @@ public class ThreadDemo {
 		Copy c = new Copy();
 		Print p = new Print();
 		c.start();//
+
+		try {
+			c.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} //
 		p.start();//
 	}
 }
