@@ -1149,8 +1149,27 @@ class Student
 	take input of above members , for printing use printData method 
 	add 1 more feature , calculate result for students and print status pass/fail , 
 	pass/fail -> percentage > 35 then pass else fail 
+
+----------------------------------------------------------------
 	
 	
+1) create a Print class with Thread , print will print your name 20 times 
+   also create copy class with Thread, it will print copy 20 times. 
+   both must be executed using thread.
+
+2) create thread of car class using runnable interface. 
+	you have 3 thread of car class. set different names for them. 
+	in run method you have to print thread name. 
+	
+3) create Bank class with wid method and deposit method. 
+   create 1 object with 4 threads, 
+   3 thread will call wid method using run [10,000] 
+   1 thread will call deposit method directly [ 5,000 ]
+   initial balance is 20000 
+   wid amount is 10000 
+   deposit amount is 5000 
+----------------------------------------------------------------
+	   
 	
 	
 	
